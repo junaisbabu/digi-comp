@@ -7,7 +7,7 @@ import {useNavigate} from 'react-router-dom'
 function LoginForm() {
   const navigate = useNavigate();
   return (
-    <div className="login-form-container card">
+    <div className="login-form-container col-3 card">
       <div className="card-body">
         <div className="card-title">
           <span>Welcome</span>
@@ -15,7 +15,7 @@ function LoginForm() {
         </div>
 
         <form>
-          <label className="form-label">
+          <label className="form-label col-12">
             <div className="input-group input-group-lg">
               <input
                 className="form-control"
@@ -23,7 +23,7 @@ function LoginForm() {
               />
             </div>
           </label>
-          <label className="form-label">
+          <label className="form-label col-12">
             <div className="input-group input-group-lg">
               <input className="form-control" type="password" placeholder="Password*" />
             </div>
