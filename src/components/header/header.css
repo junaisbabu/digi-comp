@@ -1,0 +1,14 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: white;
+}
+
+
+.right-side span:nth-of-type(2) {
+    margin-left: 10px;
+    color: red;
+    font-weight: 700;
+}   
